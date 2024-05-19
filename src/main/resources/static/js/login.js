@@ -42,8 +42,8 @@ function loginSubmit(event) {
           if (data === 0) {
              regNameInput.value = '';
              regPasswordInput.value = '';
-             regNameInput.setAttribute('placeholder', 'Uncorrect name or password');
-             regPasswordInput.setAttribute('placeholder', 'Uncorrect name or password');
+             loginNameInput.setAttribute('placeholder', 'Uncorrect name or password');
+             loginPasswordInput.setAttribute('placeholder', 'Uncorrect name or password');
           } else {
              window.location.href = '/springmessager/' + data;
           }

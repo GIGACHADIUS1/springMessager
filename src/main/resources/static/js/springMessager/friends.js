@@ -30,6 +30,11 @@ function showNewChat(chatDTO) {
       }
       console.log(content)
       chatButton.innerText = content;
+      chatButton.forEach(function (friendButton) {
+         friendButton.addEventListener('click', function () {
+            friendButOnClick(this.innerText);
+         });
+      })
    } else {
    }
 }

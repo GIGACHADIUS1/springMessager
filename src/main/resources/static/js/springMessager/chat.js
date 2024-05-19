@@ -41,6 +41,7 @@ function openChat(chatDTO) {
    document.getElementById('writeMessageForm').style.display = 'block';
 }
 
+
 function showMessage(messageDTO) {
    if (haveMessageOrNot === false) {
       document.getElementById('noMessage').remove();
@@ -90,10 +91,9 @@ function getChatList(id) {
                 friendBut.innerText = chatDTO.user1DTO.name + " | " + chatDTO.id;
              }
              friendBut.addEventListener('click', function () {
-                friendButOnClick(this.innerText)
+                friendButOnClick(this.innerText);
              })
           })
-
        })
        .catch(error => {
           console.error("Ошибка при выполнении запроса:", error);
