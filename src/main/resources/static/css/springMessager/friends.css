@@ -1,0 +1,32 @@
+.friendContainer {
+    overflow: auto;
+    box-sizing: border-box;
+    width: 33%;
+    height: 94%;
+    bottom: 0;
+    border-right: 1px solid transparent;
+    position: absolute;
+    left: 2px;
+}
+
+.friendUl {
+    margin-left: 3%;
+    list-style: none;
+    padding: 0;
+    width: 97%;
+}
+
+.friendButton{
+    border: none;
+    border-radius: 40px;
+    position: static;
+    width: 100%;
+    height: 93%;
+    margin-top: 5px;
+}
+
+.friendLi {
+    position: static;
+    width: 100%;
+    height: 60px;
+}

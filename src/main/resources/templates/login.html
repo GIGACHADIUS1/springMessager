@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Login</title>
+   <link rel="stylesheet" href="/css/login.css">
+   <script src="/js/login.js"></script>
+</head>
+
+<body>
+
+<div class="contentContainer">
+
+
+   <div class="login1Container" id="login1Container">
+      <form id="logForm" enctype="multipart/form-data">
+         <h1>Login</h1>
+         <div>
+            <input type="text" id="loginNameInput" name=" name" placeholder="name">
+         </div>
+         <div>
+            <input type="text" id="loginPasswordInput" name=" password" placeholder="password">
+         </div>
+         <button type="submit" id="loginSubmit">login</button>
+      </form>
+   </div>
+
+
+   <div class="login2Container" id="login2Container">
+      <form id="redirectToRegForm">
+         <h3>Don't you have an account yet?</h3>
+         <button id="toRegButton">registration</button>
+      </form>
+   </div>
+
+
+   <div class="reg1Container" id="reg1Container">
+      <form id="regForm" enctype="multipart/form-data">
+         <h1>Registration</h1>
+         <div>
+            <input type="text" id="regNameInput" name=" name" placeholder="name">
+         </div>
+         <div>
+            <input type="text" id="regPasswordInput" name=" password" placeholder="password">
+         </div>
+         <button type="submit" id="regSubmit">registration</button>
+      </form>
+   </div>
+
+
+   <div class="reg2Container" id="reg2Container">
+      <form id="redirectToLoginForm">
+         <h3>Do you already have an account?</h3>
+         <button id="toLoginButton">login</button>
+      </form>
+   </div>
+
+
+</div>
+
+</body>
+
+</html>

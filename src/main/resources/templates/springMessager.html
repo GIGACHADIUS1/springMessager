@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+   <meta charset="UTF-8">
+   <title>springMessager</title>
+   <link rel="stylesheet" href="/css/springMessager/springMessager.css">
+   <link rel="stylesheet" href="/css/springMessager/friends.css">
+   <link rel="stylesheet" href="/css/springMessager/send.css">
+   <link rel="stylesheet" href="/css/springMessager/search.css">
+   <link rel="stylesheet" href="/css/springMessager/messages.css">
+   <script src="/js/springMessager/search.js"></script>
+   <script src="/js/springMessager/chat.js"></script>
+   <script src="/js/springMessager/springMessager.js"></script>
+   <script src="/js/springMessager/friends.js"></script>
+   <script src="/js/libs/sockjs.js"></script>
+   <script src="/js/libs/stomp.min.js"></script>
+</head>
+
+<body>
+
+<div class="container" id="container">
+
+
+   <div class="searchUserContainer" id="searchUserContainer">
+      <form class="searchUserForm" id="searchUserForm" enctype="multipart/form-data">
+         <input class="searchUserInput" id="searchUserInput" placeholder="Search user here...">
+         <button class="searchSubmitButton" id="searchUserButton"></button>
+      </form>
+   </div>
+
+
+   <div class="resultsSearchContainer" id="resultsSearchContainer">
+      <button class="resultsSearchButton" id="resultsSearchButton"></button>
+   </div>
+
+
+   <div class="friendContainer" id="friendContainer">
+      <ul class="friendUl" id="friendUl"></ul>
+   </div>
+
+
+   <div class="messageContainer" id="messageContainer">
+      <ul class="messageUl" id="messageUl"></ul>
+   </div>
+
+
+   <div class="writeMessageContainer" id="writeMessageContainer">
+      <form class="writeMessageForm" id="writeMessageForm" enctype="multipart/form-data">
+         <input type="text" placeholder="Your message" class="writeMessageInput" id="writeMessageInput">
+         <button id="writeMessageButton" class="writeSubmitButton"></button>
+      </form>
+   </div>
+
+
+</div>
+
+</body>
+
+</html>

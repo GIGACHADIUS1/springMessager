@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(1, 2, 1, 0.75);
+    overflow: hidden;
+    min-height: 100vh;
+    top: 0;
+}
+
+form {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+input {
+    margin-top: 5px;
+    border: none;
+    border-radius: 20px;
+    position: static;
+    width: 75%;
+    height: 30px;
+    background-color: white;
+}
+
+button {
+    margin-top: 5px;
+    border: none;
+    border-radius: 20px;
+    position: static;
+    width: 75%;
+    height: 30px;
+    background: #dd7f2a;
+}
+
+.contentContainer {
+    background-color: rgba(0, 0, 0, 0.33);
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    min-height: 100vh;
+    top: 0;
+}
+
+.login1Container, .reg1Container {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.login2Container, .reg2Container {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 60%;
+}
+
+.hidden {
+    display: none;
+    pointer-events: none;
+}

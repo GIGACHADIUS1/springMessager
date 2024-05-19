@@ -1,0 +1,72 @@
+.messageContainer {
+    overflow: auto;
+    box-sizing: border-box;
+    width: 65%;
+    height: 95%;
+    border-left: 1px solid transparent;
+    position: absolute;
+    right: 0;
+}
+
+.messageUl {
+    list-style: none;
+    padding: 0;
+}
+
+.messageLi {
+    margin-left: 37.3px;
+    margin-right: 3%;
+    text-align: right;
+}
+
+.messageLi2 {
+    margin-left: 3%;
+    margin-right: 37.3px;
+    text-align: left;
+}
+
+.messageButton {
+    right: 2%;
+    border: none;
+    border-radius: 25px;
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: #c5d374;
+    padding: 7px 12px;
+    margin-top: 2px;
+    max-width: 97%;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.messageButton2 {
+    left: 2%;
+    border: none;
+    border-radius: 25px;
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 7px 12px;
+    margin-top: 2px;
+    max-width: 97%;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.noMessage {
+    border: none;
+    border-radius: 30px;
+    position: static;
+    width: 100%;
+    height: auto;
+    background-color: #dd7f2a;
+    margin-top: 2px;
+    max-width: 97%;
+    display: inline-block;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    text-align: center;
+}
