@@ -2,8 +2,6 @@ package messager.controller;
 
 
 import messager.model.User;
-import messager.service.ChatService;
-import messager.service.MessageService;
 import messager.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -16,16 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
 
 
-   private final MessageService messageServiceImpl;
    private final UserService userService;
-   private final ChatService chatService;
 
 
    @Autowired
-   public LoginController(MessageService messageService, UserService userService, ChatService chatService) {
-      this.messageServiceImpl = messageService;
+   public LoginController(UserService userService) {
       this.userService = userService;
-      this.chatService = chatService;
    }
 
 
