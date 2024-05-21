@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: springMessager
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: "123"
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 8080
